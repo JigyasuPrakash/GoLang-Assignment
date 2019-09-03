@@ -17,5 +17,5 @@
 
 > $ go run Main.go
 
-# Author
+## Author
 - Jigyasu Prakash - [JigyasuPrakash](https://github.com/JigyasuPrakash)
