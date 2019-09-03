@@ -13,6 +13,8 @@
 - Install Go in your system (Refer <a href="https://golang.org/">this</a>)
 - Set up system environment variable
 - Follow steps below
+> $ cd `Directory where file is saved`
+
 > $ go run Main.go
 
 # Author
