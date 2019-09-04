@@ -3,7 +3,7 @@
 ![](https://img.shields.io/badge/Made%20with-Go-blue/?style=for-the-badge&logo=appveyor)
 
 ## About
-- Using Go Programming Language thess following String functions have been implemented
+- Using Go Programming Language these following String functions have been implemented
   - Sub String
   - Replace
   - Length
