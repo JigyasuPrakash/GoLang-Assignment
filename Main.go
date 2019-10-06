@@ -22,7 +22,13 @@ func main() {
 		fmt.Scan(&a)
 		switch a {
 		case 1:
-			subString(value)
+			fmt.Printf("Enter Starting position for Sub String: ")
+			var start int
+			fmt.Scan(&start)
+			fmt.Printf("Enter Ending position for Sub String: ")
+			var end int
+			fmt.Scan(&end)
+			subString(value, start, end)
 		case 2:
 			replace(value)
 		case 3:
@@ -37,16 +43,11 @@ func main() {
 	}
 }
 
-func subString(value string) {
+func subString(value string, start int, end int) string {
 	runes := []rune(value)
-	fmt.Printf("Enter Starting position for Sub String: ")
-	var start int
-	fmt.Scan(&start)
-	fmt.Printf("Enter Ending position for Sub String: ")
-	var end int
-	fmt.Scan(&end)
 	mySubString := string(runes[start:end])
 	fmt.Println("Your Sub String is: " + mySubString)
+	return string(mySubString)
 }
 
 func replace(value string) {
@@ -59,11 +60,12 @@ func replace(value string) {
 	a = strings.Replace(value, a, b, -1)
 	fmt.Println("Your New Replaced String is: " + a)
 }
-func length(value string) {
+func length(value string) int {
 	a := len(value)
 	fmt.Printf("Length of your String is: %v\n", a)
+	return a
 }
-func reverse(value string) {
+func reverse(value string) string {
 	n := 0
 	rune := make([]rune, len(value))
 	for _, r := range value {
@@ -76,4 +78,5 @@ func reverse(value string) {
 	}
 	output := string(rune)
 	fmt.Println(output)
+	return output
 }
