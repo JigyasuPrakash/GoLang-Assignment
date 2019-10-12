@@ -1,6 +1,6 @@
 # String Functions in Go
 
-![](https://img.shields.io/badge/Made%20with-Go-blue/?style=for-the-badge&logo=appveyor)
+![](https://img.shields.io/badge/Made%20with-VS%20Code-brightgreen?style=for-the-badge&logo=appveyor)
 
 [![Build Status](https://travis-ci.org/JigyasuPrakash/GoLang-Assignment.svg?branch=master)](https://travis-ci.org/JigyasuPrakash/GoLang-Assignment)
 ![](https://img.shields.io/badge/Language-go-brightgreen)
