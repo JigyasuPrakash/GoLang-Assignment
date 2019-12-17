@@ -6,6 +6,7 @@
 ![](https://img.shields.io/badge/Language-go-brightgreen)
 ![](https://img.shields.io/github/issues/JigyasuPrakash/GoLang-Assignment)
 ![](https://img.shields.io/github/forks/JigyasuPrakash/GoLang-Assignment)
+[![CodeFactor](https://www.codefactor.io/repository/github/jigyasuprakash/golang-assignment/badge/master)](https://www.codefactor.io/repository/github/jigyasuprakash/golang-assignment/overview/master)
 
 ## About
 - Using Go Programming Language these following String functions have been implemented
